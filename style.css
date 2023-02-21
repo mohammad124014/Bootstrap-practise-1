@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --blue: #0e8ce3;
+    --gray: #a1a1a1;
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+.background-blue {
+    background: var(--blue);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.background-gray {
+    background: var(--gray);
+}
+
+.margin-top-bottom {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+.font-size-15px {
+    font-size: 15px;
+}
+
+.font-size-12px {
+    font-size: 12px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.set-background {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+header ul li:hover>a {
+    color: black;
+}
+
+header ul li:hover>i {
+    color: black;
+}
+
+.bg-gradient-banner {
+    background: linear-gradient(180deg, white, #d0e3f1);
+}
